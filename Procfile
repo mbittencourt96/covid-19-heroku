@@ -1,1 +1,1 @@
-web: gunicorn shielded-anchorage-66042.wsgi --log-file -
+web: sh setup.sh && streamlit run main.py
